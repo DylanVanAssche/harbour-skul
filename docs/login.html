@@ -13,19 +13,20 @@
 				margin: 50px;
 				background-color: #b63939;
 			}
-	    h1 {
+	    		h1 {
 				font-size: 75px;
 				text-align: center;
 				color: #fffdf8;
 			}
 			p {
-				text-align: center;
 	  		color: #dbd9d5;
 			}
-			div {
-				text-align: center;
-        margin: 15px 15px 15px 15px;
-      }
+			.mobile {
+				visibility: visible;
+			}
+			.desktop {
+				visibility: hidden;
+			}
 		}
 		@media screen and (min-width: 600px) { /* Normal website*/
 			body {
@@ -41,7 +42,7 @@
 	  		color: #dbd9d5;
 				font-size: 25px;
 			}
-	  }
+	  	}
 	</style>
 	<title>KU Leuven login</title>
 </head>
@@ -49,6 +50,7 @@
 	<h1 class="mobile">KU Leuven login</h1>
 	<p class="mobile">Logging in succesfully into the KU Leuven Web Services!</p>
 	<p class="mobile">SKUL will now load your personal schedule...</p>
-	<p class="desktop">This page is only visible for mobile devices.</div>
+	<p class="desktop">This page is only visible for mobile devices.</p>
 </body>
 </html>
+
