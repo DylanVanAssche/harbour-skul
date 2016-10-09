@@ -1,4 +1,12 @@
-body { background-color: silver; color: black;
-				font-size: 12pt; font-family: verdana, arial; }
-		*    { margin-left: 1%; }
-		h1, h2 { color: fuchsia; }
+body {
+  background-color: "f54c4c";
+}
+
+h1 {
+  color: "fffdf8";
+}
+
+p {
+  color: "dbd9d5";
+}
+
