@@ -2,11 +2,53 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link href="../stylesheet.css" rel="stylesheet" type="text/css">
-	<title>OAuth succesfully</title>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		@media only screen and (max-device-width: 600px) { /* Mobile website */
+			* {
+				font-family: Tahoma, Geneva, sans-serif;
+			}
+			body {
+				margin: 50px;
+				background-color: #b63939;
+			}
+	    h1 {
+				font-size: 75px;
+				text-align: center;
+				color: #fffdf8;
+			}
+			p {
+				text-align: center;
+	  		color: #dbd9d5;
+			}
+			div {
+				text-align: center;
+        margin: 15px 15px 15px 15px;
+      }
+		}
+		@media screen and (min-width: 600px) { /* Normal website*/
+			body {
+				margin: 50px;
+				background-color: #b63939;
+			}
+			.mobile {
+				visibility: hidden;
+			}
+			.desktop {
+				visibility: visible;
+				text-align: center;
+	  		color: #dbd9d5;
+				font-size: 25px;
+			}
+	  }
+	</style>
+	<title>KU Leuven login</title>
 </head>
 <body>
-	<h1>KU Leuven login OK</h1>
-	<p>SKUL will now load your schedule...</p>
+	<h1 class="mobile">KU Leuven login</h1>
+	<p class="mobile">Logging in succesfully into the KU Leuven Web Services!</p>
+	<p class="mobile">SKUL will now load your personal schedule...</p>
+	<p class="desktop">This page is only visible for mobile devices.</div>
 </body>
 </html>
