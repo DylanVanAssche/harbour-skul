@@ -5,9 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<style type="text/css">
 
-		@media only screen and (max-device-width: 600px) {
-	    /* write smartphone styles here */
+		@media only screen and (max-device-width: 600px) { /* Mobile website */
+			img {
+				text-align: center;
+			}
 		}
+
+		@media screen and (min-width: 600px) { /* Normal website */
+			img {
+				float: right;
+				margin: 0px 15px 150px 0px;
+			}
+	  }
 		a:link {
 			color: #dbd9d5;
 		}
